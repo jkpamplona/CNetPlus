@@ -603,7 +603,7 @@ conf t
 !
  voice register global
   mode cme
-  source-address 10._.100.8 port 5060
+  source-address 10.62.100.8 port 5060
   max-dn 12
   max-pool 12
   authenticate register
@@ -643,4 +643,5 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
